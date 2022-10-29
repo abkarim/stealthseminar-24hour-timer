@@ -123,7 +123,7 @@ function countDown() {
         // Reset second
         second_number.innerText = 59;
 
-    } else if (time.second < 10) {
+    } else if (time.second < 11) {
         second_number.innerText = `0${time.second - 1}`;
     } else {
         second_number.innerText = time.second - 1;
