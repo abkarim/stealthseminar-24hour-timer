@@ -17,7 +17,9 @@ We will add our JavaScript code in the last field **BOTTOM OF PAGE** box.
 If you want to edit something it is recommended that you first do editing the script.js file and then add it to the input.
 
 ```javascript
-<script>// ... script.js file content paste here</script>
+<script>
+// ... script.js file content paste here
+</script>
 ```
 
 Then click **save**. \*By default this file will append timer as **first child on body.\***
