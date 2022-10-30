@@ -1,6 +1,6 @@
 # 24 hour timer
 
-Add 24 hour timer in StealthSeminar registration page.But you have the option to **reduce hours**. This timer is static,page refresh will reset timer to the default time.
+Add 24 hour timer in StealthSeminar registration page. But you have the option to **reduce or increase hours**. This timer is static, page refresh will reset the timer to default time.
 
 ![App Screenshot](screenshot.png)
 
@@ -85,7 +85,7 @@ const styles = `
 //...
 ```
 
-## Reduce Hours
+## Change Hours
 
 Find following code and edit in script.js. When using number less than 10, add a '0' before and place between quotes(') number, EX: '05'.
 By the way hours can be bigger than 24.
@@ -93,5 +93,17 @@ By the way hours can be bigger than 24.
 ```javascript
 //...
 hour_number.textContent = 24; // You can use any number 
+//...
+```
+
+## Change Text
+
+Find following code and edit in script.js to change text.
+
+```javascript
+//...
+hour_text.textContent = 'HOURS'; // Hour text
+minute_text.textContent = 'MINUTES'; // Minute text
+second_text.textContent = 'SECONDS'; // Second text
 //...
 ```
