@@ -92,18 +92,18 @@ By the way hours can be bigger than 24.
 
 ```javascript
 //...
-hour_number.textContent = 24; // You can use any number 
+const hour_number = createElement('span', 24, 'hour', hourElement); // Hours in second parameter
 //...
 ```
 
 ## Change Text
 
-Find following code and edit in script.js to change text.
+Find following code and edit in script.js to change text. Text placed on the second parameter of createElement function
 
 ```javascript
 //...
-hour_text.textContent = 'HOURS'; // Hour text
-minute_text.textContent = 'MINUTES'; // Minute text
-second_text.textContent = 'SECONDS'; // Second text
+const hour_text = createElement('div', 'HOURS', 'text', hourElement); // Hour
+const minute_text = createElement('div', 'MINUTES', 'text', minuteElement); // Minute
+const second_text = createElement('div', 'SECONDS', 'text', secondElement); // Second
 //...
 ```
